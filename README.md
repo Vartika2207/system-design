@@ -5736,5 +5736,8 @@ Here are the resources that were referenced while creating this course.
 # Prev work related
 - [PayPal handling billions transaction](https://www.geeksforgeeks.org/system-design/how-paypal-was-able-to-support-a-billion-transactions-per-day-with-only-8-virtual-machines)
 - [PayPal HLD/ system design]
+- [Practice SD problems from SD School](https://systemdesignschool.io/problems/url-shortener/solution)
+- [Practice from hello interview](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly)
+- [Practice with Educative](https://www.educative.io/courses/agentic-ai-systems)
 
 _All the diagrams were made using [Excalidraw](https://excalidraw.com) and are available [here](https://github.com/karanpratapsingh/system-design/tree/main/diagrams)._
