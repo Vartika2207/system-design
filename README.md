@@ -3135,6 +3135,16 @@ In this state, the circuit breaker allows a limited number of requests from the 
 
 Rate limiting refers to preventing the frequency of an operation from exceeding a defined limit. In large-scale systems, rate limiting is commonly used to protect underlying services and resources. Rate limiting is generally used as a defensive mechanism in distributed systems, so that shared resources can maintain availability. It also protects our APIs from unintended or malicious overuse by limiting the number of requests that can reach our API in a given period of time.
 
+A rate limiter controls how many requests a user/client can send in a given time.
+Rate limiter = "You can make only X requests in Y seconds.
+Why to use: Prevent abuse, Protect backend, fairness
+Where is it used? Login APIs,
+OTP endpoints,
+URL shortener,
+Payment APIs,
+Public APIs,
+Search APIs
+
 ![rate-limiting](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-IV/rate-limiting/rate-limiting.png)
 
 ## Why do we need Rate Limiting?
