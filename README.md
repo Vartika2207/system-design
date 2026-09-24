@@ -2263,7 +2263,7 @@ Below are some widely used Enterprise Service Bus (ESB) technologies:
 
 ## Monoliths
 
-A monolith is a self-contained and independent application. It is built as a single unit and is responsible for not just a particular task, but can perform every step needed to satisfy a business need.
+A monolith is a self-contained and independent application. It is built as a single unit and is responsible for not just a particular task, but can perform every step needed to satisfy a business need. The whole application is built and deployed as one single unit.
 
 ![monolith](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-III/monoliths-microservices/monolith.png)
 
