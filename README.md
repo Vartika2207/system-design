@@ -2289,6 +2289,7 @@ Some common disadvantages of monoliths are:
 
 ## Modular Monoliths
 
+A modular monolith is still a single deployable application, but its business domains are clearly separated into modules with well-defined boundaries. It provides the simplicity of a monolith while keeping the codebase easier to maintain and potentially split into services later.
 A Modular Monolith is an approach where we build and deploy a single application (that's the _Monolith_ part), but we build it in a way that breaks up the code into independent modules for each of the features needed in our application.
 
 This approach reduces the dependencies of a module in such as way that we can enhance or change a module without affecting other modules. When done right, this can be really beneficial in the long term as it reduces the complexity that comes with maintaining a monolith as the system grows.
