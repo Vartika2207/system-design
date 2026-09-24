@@ -3584,6 +3584,11 @@ For example:
 - "Our system should record metrics and analytics"
 - "Service health and performance monitoring?"
 
+"We should monitor metrics such as request latency, throughput, error rate, CPU and memory usage, and service availability so we can detect failures and performance degradation and alert engineers."
+Metrics = numbers about the system.
+Analytics = insights from the data.
+Monitoring = watching the system and detecting problems.
+
 ## Estimation and Constraints
 
 Estimate the scale of the system we're going to design. It is important to ask questions such as:
