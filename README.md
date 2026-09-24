@@ -3008,6 +3008,8 @@ Let's understand how server-sent events work:
 - Limitation for the maximum number of open connections.
 - Does not support binary data.
 
+SSE is useful when the server needs to continuously push updates to a client over a long-lived HTTP connection. A webhook is used for event-driven communication between two systems, where one system calls another system's endpoint when an event occurs.
+
 # Geohashing and Quadtrees
 
 ## Geohashing
