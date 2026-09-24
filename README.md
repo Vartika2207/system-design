@@ -2873,6 +2873,8 @@ message HelloResponse {
 
 ## REST vs GraphQL vs gRPC
 
+For client-facing APIs, I'd generally consider REST or GraphQL depending on whether the client needs flexible data fetching. For internal microservice communication where performance and strongly defined contracts matter, I'd consider gRPC.
+
 Now that we know how these API designing techniques work, let's compare them based on the following parameters:
 
 - Will it cause tight coupling?
