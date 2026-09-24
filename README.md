@@ -2940,6 +2940,16 @@ WebSocket provides full-duplex communication channels over a single TCP connecti
 
 The client establishes a WebSocket connection through a process known as the WebSocket handshake. If the process succeeds, then the server and client can exchange data in both directions at any time. The WebSocket protocol enables the communication between a client and a server with lower overheads, facilitating real-time data transfer from and to the server.
 
+Used when: You need real-time, continuous updates.
+
+Examples:
+live driver tracking
+chat
+online gaming
+live dashboards
+stock-price updates
+collaborative editing
+
 ![websockets](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-III/long-polling-websockets-server-sent-events/websockets.png)
 
 This is made possible by providing a standardized way for the server to send content to the client without being asked and allowing for messages to be passed back and forth while keeping the connection open.
